@@ -1,0 +1,136 @@
+Dependencies for Project 'MotorTest', Target 'Lesson': (DO NOT MODIFY !)
+F (.\Startup\startup_stm32f10x_md_vl.s)(0x4D78750E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_CL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\CMSIS\src\core_cm3.c)(0x4C0C90BE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+F (.\CMSIS\src\system_stm32f10x.c)(0x4D7874F0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00767B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D527398)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7874EA)
+F (.\Code\src\main.c)(0x5A046C13)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00767B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D527398)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7874EA)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\queue.h)(0x573F2C06)
+F (.\FreeRTOS\src\croutine.c)(0x573F2C06)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\croutine.h)(0x573F2C06)
+F (.\FreeRTOS\src\event_groups.c)(0x573F2C06)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\timers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\event_groups.h)(0x573F2C06)
+F (.\FreeRTOS\src\heap_1.c)(0x573F2C06)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+F (.\FreeRTOS\src\list.c)(0x573F2C06)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+F (.\FreeRTOS\src\port.c)(0x573F2C07)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+F (.\FreeRTOS\src\queue.c)(0x573F2C07)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\queue.h)(0x573F2C06)
+F (.\FreeRTOS\src\tasks.c)(0x573F2C07)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\timers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\StackMacros.h)(0x573F2C06)
+F (.\FreeRTOS\src\timers.c)(0x573F2C07)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\workspace -I .\CMSIS\inc -I .\Code\inc -I .\FreeRTOS\inc-I.\RTE\_Lesson-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_CL-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F63EF8)
+I (.\FreeRTOS\inc\FreeRTOS.h)(0x573F2C06)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F63EF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (.\Code\inc\FreeRTOSConfig.h)(0x5A00BB83)
+I (.\FreeRTOS\inc\projdefs.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portable.h)(0x573F2C06)
+I (.\FreeRTOS\inc\deprecated_definitions.h)(0x573F2C06)
+I (.\FreeRTOS\inc\portmacro.h)(0x573F2C07)
+I (.\FreeRTOS\inc\mpu_wrappers.h)(0x573F2C06)
+I (.\FreeRTOS\inc\task.h)(0x573F2C06)
+I (.\FreeRTOS\inc\list.h)(0x573F2C06)
+I (.\FreeRTOS\inc\queue.h)(0x573F2C06)
+I (.\FreeRTOS\inc\timers.h)(0x573F2C06)
